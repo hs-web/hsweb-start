@@ -1,4 +1,4 @@
-package cn.org.jetbrains;
+package io.hsweb;
 
 import io.spring.initializr.metadata.*;
 import org.springframework.boot.SpringApplication;

@@ -124,7 +124,7 @@ initializr:
     repositories:
       nexus:
         name: Team Nexus Repository
-        url: http://nexus.jetbrains.org.cn/nexus/content/groups/public
+        url: http://nexus.hsweb.me/content/groups/public/
         snapshots-enabled: true
   dependencies:
     - name: Common

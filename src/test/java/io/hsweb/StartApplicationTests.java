@@ -1,4 +1,4 @@
-package cn.org.jetbrains;
+package io.hsweb;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
