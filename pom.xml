@@ -8,7 +8,7 @@
     <artifactId>hsweb-start</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>start</name>
+    <name>start.hsweb.io</name>
     <description>start.hsweb.io</description>
 
     <parent>
