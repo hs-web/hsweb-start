@@ -30,12 +30,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
+        <!--如修改页面配置 请从新构建依赖 -->
         <dependency>
             <groupId>io.spring.initializr</groupId>
             <artifactId>initializr-web</artifactId>
             <version>0.5.0.BUILD-SNAPSHOT</version>
         </dependency>
+        <!--如修改页面配置 请从新构建依赖 -->
 
 
         <dependency>

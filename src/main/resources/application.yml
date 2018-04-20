@@ -127,16 +127,17 @@ initializr:
         url: http://nexus.hsweb.me/content/groups/public/
         snapshots-enabled: true
   dependencies:
-    - name: Common
+#  添加自己的依赖,按照模板依次复制即可
+    - name: Common #分组名称
       content:
-        - name: hsweb-system-authorization-starter
+        - name: hsweb-system-authorization-starter #显示名称
           groupId: org.hswebframework.web
           artifactId: hsweb-system-authorization-starter
           description: 权限管理
-          repository: nexus
+          repository: nexus #使用私服 私服在上面配置
           links:
             - rel: reference
-              href: https://github.com/hs-web/hsweb-framework/wiki/logging
+              href: https://github.com/hs-web/hsweb-framework/wiki/logging #文档说明
         - name: hsweb-authorization-basic
           groupId: org.hswebframework.web
           artifactId: hsweb-authorization-basic
