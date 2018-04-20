@@ -22,3 +22,7 @@ hs_err_pid*
 !/.mvn/wrapper/maven-wrapper.jar
 /data/
 *.db
+
+#mac
+.DS_Store
+*.DS_Store
